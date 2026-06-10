@@ -945,6 +945,195 @@ options: [
 answer: 0,
 explanation: "Cochlea merupakan bagian telinga dalam yang berfungsi dalam proses pendengaran."
 },
+  // =========================
+// SOAL 51 (TEXT)
+// =========================
+{
+id: 51,
+type: "text",
+difficulty: "medium",
+question: "Word root 'dermat-' mengacu pada...",
+options: [
+"Otot",
+"Tulang",
+"Kulit",
+"Sendi"
+],
+answer: 2,
+explanation: "Dermat- berasal dari bahasa Yunani derma yang berarti kulit. Contohnya dermatitis dan dermatology."
+},
+
+// =========================
+// SOAL 52 (IMAGE)
+// =========================
+{
+id: 52,
+type: "image",
+difficulty: "medium",
+image: "images/rib_01.png",
+imageVariant: "A",
+question: "Tulang yang ditunjuk pada gambar termasuk kelompok...",
+options: [
+"Tulang panjang",
+"Tulang pipih",
+"Tulang pendek",
+"Tulang tidak beraturan"
+],
+answer: 1,
+explanation: "Costa (iga) diklasifikasikan sebagai tulang pipih yang berfungsi melindungi organ toraks."
+},
+
+// =========================
+// SOAL 53 (TEXT)
+// =========================
+{
+id: 53,
+type: "text",
+difficulty: "medium",
+question: "Prefix 'hyper-' memiliki arti...",
+options: [
+"Di bawah normal",
+"Berlebihan atau meningkat",
+"Di sekitar",
+"Di dalam"
+],
+answer: 1,
+explanation: "Hyper- menunjukkan kondisi berlebihan atau meningkat, misalnya hypertension dan hyperglycemia."
+},
+
+// =========================
+// SOAL 54 (IMAGE)
+// =========================
+{
+id: 54,
+type: "image",
+difficulty: "medium",
+image: "images/ulna_01.png",
+imageVariant: "A",
+question: "Bagian tulang yang ditunjuk pada gambar merupakan...",
+options: [
+"Olecranon",
+"Capitulum",
+"Trochlea",
+"Coronoid fossa"
+],
+answer: 0,
+explanation: "Olecranon adalah tonjolan proksimal ulna yang membentuk ujung siku."
+},
+
+// =========================
+// SOAL 55 (TEXT)
+// =========================
+{
+id: 55,
+type: "text",
+difficulty: "hard",
+question: "Istilah 'osteopenia' paling tepat menggambarkan kondisi...",
+options: [
+"Infeksi tulang",
+"Penurunan massa tulang",
+"Fraktur tulang",
+"Peradangan tulang"
+],
+answer: 1,
+explanation: "Osteo berarti tulang dan penia berarti kekurangan. Osteopenia menunjukkan penurunan densitas tulang."
+},
+
+// =========================
+// SOAL 56 (IMAGE)
+// =========================
+{
+id: 56,
+type: "image",
+difficulty: "hard",
+image: "images/elbow_joint_01.png",
+imageVariant: "A",
+question: "Sendi yang ditunjuk pada gambar termasuk tipe...",
+options: [
+"Ball and socket",
+"Hinge joint",
+"Pivot joint",
+"Saddle joint"
+],
+answer: 1,
+explanation: "Sendi siku merupakan contoh hinge joint yang terutama memungkinkan gerakan fleksi dan ekstensi."
+},
+
+// =========================
+// SOAL 57 (TEXT)
+// =========================
+{
+id: 57,
+type: "text",
+difficulty: "hard",
+question: "Pasien mengalami cedera pada otot yang berfungsi utama melakukan abduksi lengan pada 15°–90°. Otot yang paling mungkin terkena adalah...",
+options: [
+"Biceps brachii",
+"Trapezius",
+"Deltoid",
+"Latissimus dorsi"
+],
+answer: 2,
+explanation: "Deltoid merupakan penggerak utama abduksi lengan setelah inisiasi oleh supraspinatus."
+},
+
+// =========================
+// SOAL 58 (IMAGE)
+// =========================
+{
+id: 58,
+type: "image",
+difficulty: "hard",
+image: "images/heart_valve_01.png",
+imageVariant: "A",
+question: "Katup jantung yang ditunjuk pada gambar adalah...",
+options: [
+"Tricuspid valve",
+"Mitral valve",
+"Pulmonary valve",
+"Aortic valve"
+],
+answer: 1,
+explanation: "Mitral valve terletak antara atrium kiri dan ventrikel kiri serta memiliki dua daun katup."
+},
+
+// =========================
+// SOAL 59 (TEXT)
+// =========================
+{
+id: 59,
+type: "text",
+difficulty: "very_hard",
+question: "Istilah 'intramuscular injection' menunjukkan bahwa obat diberikan...",
+options: [
+"Di bawah kulit",
+"Ke dalam vena",
+"Ke dalam otot",
+"Ke dalam rongga sendi"
+],
+answer: 2,
+explanation: "Intra berarti di dalam dan muscular berarti otot. Intramuscular injection adalah injeksi ke jaringan otot."
+},
+
+// =========================
+// SOAL 60 (IMAGE)
+// =========================
+{
+id: 60,
+type: "image",
+difficulty: "very_hard",
+image: "images/brain_artery_01.png",
+imageVariant: "A",
+question: "Pembuluh darah yang ditunjuk pada gambar merupakan bagian dari...",
+options: [
+"Circle of Willis",
+"Portal system",
+"Coronary circulation",
+"Pulmonary circulation"
+],
+answer: 0,
+explanation: "Circle of Willis adalah anastomosis arteri di dasar otak yang menjaga suplai darah serebral."
+},
   
 
 ];
