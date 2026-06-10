@@ -756,6 +756,195 @@ options: [
 answer: 1,
 explanation: "Lens berfungsi memfokuskan cahaya ke retina."
   },
+  // =========================
+// SOAL 41 (TEXT)
+// =========================
+{
+id: 41,
+type: "text",
+difficulty: "medium",
+question: "Istilah anatomi yang menunjukkan posisi lebih dekat ke permukaan tubuh adalah...",
+options: [
+"Deep",
+"Internal",
+"Superficial",
+"Proximal"
+],
+answer: 2,
+explanation: "Superficial berarti lebih dekat ke permukaan tubuh, sedangkan deep berarti lebih jauh dari permukaan."
+},
+
+// =========================
+// SOAL 42 (IMAGE)
+// =========================
+{
+id: 42,
+type: "image",
+difficulty: "medium",
+image: "images/skull_02.png",
+imageVariant: "A",
+question: "Tulang yang ditunjuk pada cranium adalah...",
+options: [
+"Frontal bone",
+"Parietal bone",
+"Temporal bone",
+"Occipital bone"
+],
+answer: 1,
+explanation: "Parietal bone membentuk sebagian besar atap dan sisi cranium."
+},
+
+// =========================
+// SOAL 43 (TEXT)
+// =========================
+{
+id: 43,
+type: "text",
+difficulty: "hard",
+question: "Seorang pasien mengalami peradangan hati. Terminologi medis yang paling tepat adalah...",
+options: [
+"Hepatoma",
+"Hepatitis",
+"Hepatectomy",
+"Hepatosis"
+],
+answer: 1,
+explanation: "Hepat = hati dan -itis = peradangan."
+},
+
+// =========================
+// SOAL 44 (IMAGE)
+// =========================
+{
+id: 44,
+type: "image",
+difficulty: "medium",
+image: "images/fibula_01.png",
+imageVariant: "A",
+question: "Struktur tulang yang ditunjuk adalah...",
+options: [
+"Tibia",
+"Fibula",
+"Femur",
+"Patella"
+],
+answer: 1,
+explanation: "Fibula adalah tulang lateral pada tungkai bawah."
+},
+
+// =========================
+// SOAL 45 (TEXT)
+// =========================
+{
+id: 45,
+type: "text",
+difficulty: "hard",
+question: "Istilah 'tachypnea' menunjukkan kondisi...",
+options: [
+"Napas lambat",
+"Napas cepat",
+"Denyut jantung cepat",
+"Denyut jantung lambat"
+],
+answer: 1,
+explanation: "Tachy = cepat, pnea = pernapasan."
+},
+
+// =========================
+// SOAL 46 (IMAGE)
+// =========================
+{
+id: 46,
+type: "image",
+difficulty: "hard",
+image: "images/spinalcord_01.png",
+imageVariant: "A",
+question: "Bagian sistem saraf yang ditunjuk pada gambar adalah...",
+options: [
+"Cerebrum",
+"Cerebellum",
+"Spinal cord",
+"Brainstem"
+],
+answer: 2,
+explanation: "Spinal cord merupakan bagian sistem saraf pusat yang berada dalam kanalis vertebralis."
+},
+
+// =========================
+// SOAL 47 (TEXT)
+// =========================
+{
+id: 47,
+type: "text",
+difficulty: "hard",
+question: "Jika suatu organ berada inferior terhadap diafragma dan superior terhadap pelvis, organ tersebut berada dalam...",
+options: [
+"Cranial cavity",
+"Thoracic cavity",
+"Abdominal cavity",
+"Vertebral cavity"
+],
+answer: 2,
+explanation: "Abdominal cavity berada di antara diafragma dan pelvis."
+},
+
+// =========================
+// SOAL 48 (IMAGE)
+// =========================
+{
+id: 48,
+type: "image",
+difficulty: "hard",
+image: "images/muscle_01.png",
+imageVariant: "A",
+question: "Otot yang ditunjuk pada gambar adalah...",
+options: [
+"Biceps brachii",
+"Triceps brachii",
+"Deltoid",
+"Brachialis"
+],
+answer: 0,
+explanation: "Biceps brachii merupakan fleksor utama siku dan terletak di bagian anterior lengan atas."
+},
+
+// =========================
+// SOAL 49 (TEXT)
+// =========================
+{
+id: 49,
+type: "text",
+difficulty: "very_hard",
+question: "Istilah 'osteoarthritis' tersusun dari kombinasi...",
+options: [
+"Oste + arthr + itis",
+"Oste + oma",
+"Oste + pathy",
+"Oste + emia"
+],
+answer: 0,
+explanation: "Oste = tulang, arthr = sendi, itis = peradangan."
+},
+
+// =========================
+// SOAL 50 (IMAGE)
+// =========================
+{
+id: 50,
+type: "image",
+difficulty: "very_hard",
+image: "images/ear_01.png",
+imageVariant: "A",
+question: "Struktur telinga yang ditunjuk pada gambar adalah...",
+options: [
+"Cochlea",
+"Semicircular canal",
+"Tympanic membrane",
+"Malleus"
+],
+answer: 0,
+explanation: "Cochlea merupakan bagian telinga dalam yang berfungsi dalam proses pendengaran."
+},
   
 
 ];
