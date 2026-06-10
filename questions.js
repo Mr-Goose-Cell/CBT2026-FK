@@ -188,6 +188,195 @@ const questions = [
     ],
     answer: 0,
     explanation: "Caput femoris adalah kepala tulang femur."
-  }
+  },
+  // =========================
+// SOAL 11 (TEXT)
+// =========================
+{
+id: 11,
+type: "text",
+difficulty: "medium",
+question: "Word root 'cardi' mengacu pada organ...",
+options: [
+"Paru",
+"Jantung",
+"Hati",
+"Ginjal"
+],
+answer: 1,
+explanation: "Cardi berasal dari bahasa Yunani 'kardia' yang berarti jantung. Istilah seperti cardiology, cardiomegaly, dan pericardium semuanya berhubungan dengan jantung."
+},
+
+// =========================
+// SOAL 12 (IMAGE)
+// =========================
+{
+id: 12,
+type: "image",
+difficulty: "medium",
+image: "images/scapula_01.png",
+imageVariant: "A",
+question: "Struktur yang ditunjuk pada scapula adalah...",
+options: [
+"Acromion",
+"Coracoid process",
+"Spina scapulae",
+"Glenoid cavity"
+],
+answer: 3,
+explanation: "Glenoid cavity merupakan permukaan artikular scapula yang berhubungan dengan caput humeri membentuk sendi bahu."
+},
+
+// =========================
+// SOAL 13 (TEXT)
+// =========================
+{
+id: 13,
+type: "text",
+difficulty: "medium",
+question: "Istilah 'tachycardia' berarti...",
+options: [
+"Denyut jantung lambat",
+"Denyut jantung cepat",
+"Pembesaran jantung",
+"Peradangan jantung"
+],
+answer: 1,
+explanation: "Tachy- berarti cepat dan -cardia berkaitan dengan denyut jantung. Tachycardia adalah peningkatan frekuensi denyut jantung di atas normal."
+},
+
+// =========================
+// SOAL 14 (IMAGE)
+// =========================
+{
+id: 14,
+type: "image",
+difficulty: "medium",
+image: "images/vertebra_01.png",
+imageVariant: "A",
+question: "Bagian vertebra yang ditunjuk adalah...",
+options: [
+"Spinous process",
+"Vertebral body",
+"Transverse process",
+"Vertebral foramen"
+],
+answer: 3,
+explanation: "Vertebral foramen adalah lubang pada vertebra yang membentuk kanalis vertebralis tempat medula spinalis berada."
+},
+
+// =========================
+// SOAL 15 (TEXT)
+// =========================
+{
+id: 15,
+type: "text",
+difficulty: "medium",
+question: "Suffix '-megaly' berarti...",
+options: [
+"Nyeri",
+"Peradangan",
+"Pembesaran",
+"Pemotongan"
+],
+answer: 2,
+explanation: "Megaly berarti pembesaran organ, misalnya hepatomegaly atau cardiomegaly."
+},
+
+// =========================
+// SOAL 16 (IMAGE)
+// =========================
+{
+id: 16,
+type: "image",
+difficulty: "medium",
+image: "images/lung_01.png",
+imageVariant: "A",
+question: "Lobus paru yang ditunjuk pada gambar adalah...",
+options: [
+"Lobus superior dexter",
+"Lobus medius dexter",
+"Lobus inferior dexter",
+"Lobus superior sinister"
+],
+answer: 1,
+explanation: "Lobus medius hanya dimiliki paru kanan dan terletak di antara lobus superior dan inferior."
+},
+
+// =========================
+// SOAL 17 (TEXT)
+// =========================
+{
+id: 17,
+type: "text",
+difficulty: "hard",
+question: "Seorang pasien mengalami lesi pada nervus medianus. Gerakan yang paling mungkin terganggu adalah...",
+options: [
+"Abduksi jari",
+"Fleksi ibu jari",
+"Ekstensi siku",
+"Plantar fleksi"
+],
+answer: 1,
+explanation: "Nervus medianus mempersarafi sebagian besar otot fleksor lengan bawah dan otot thenar sehingga fleksi/oposisi ibu jari dapat terganggu."
+},
+
+// =========================
+// SOAL 18 (IMAGE)
+// =========================
+{
+id: 18,
+type: "image",
+difficulty: "hard",
+image: "images/heart_01.png",
+imageVariant: "A",
+question: "Ruang jantung yang ditunjuk pada gambar adalah...",
+options: [
+"Atrium kanan",
+"Atrium kiri",
+"Ventrikel kanan",
+"Ventrikel kiri"
+],
+answer: 3,
+explanation: "Ventrikel kiri memiliki dinding paling tebal karena memompa darah ke seluruh tubuh melalui sirkulasi sistemik."
+},
+
+// =========================
+// SOAL 19 (TEXT)
+// =========================
+{
+id: 19,
+type: "text",
+difficulty: "hard",
+question: "Istilah anatomi 'supine position' berarti pasien berada dalam posisi...",
+options: [
+"Tengkurap",
+"Berbaring terlentang",
+"Duduk tegak",
+"Miring kanan"
+],
+answer: 1,
+explanation: "Supine adalah posisi berbaring terlentang dengan wajah menghadap ke atas."
+},
+
+// =========================
+// SOAL 20 (IMAGE)
+// =========================
+{
+id: 20,
+type: "image",
+difficulty: "hard",
+image: "images/kidney_01.png",
+imageVariant: "A",
+question: "Struktur yang ditunjuk pada ginjal adalah...",
+options: [
+"Renal cortex",
+"Renal pelvis",
+"Renal pyramid",
+"Ureter"
+],
+answer: 1,
+explanation: "Renal pelvis merupakan tempat penampungan urin sebelum dialirkan ke ureter."
+  },
 
 ];
