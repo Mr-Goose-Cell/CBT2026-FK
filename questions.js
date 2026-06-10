@@ -378,5 +378,384 @@ options: [
 answer: 1,
 explanation: "Renal pelvis merupakan tempat penampungan urin sebelum dialirkan ke ureter."
   },
+  // =========================
+// SOAL 21 (TEXT)
+// =========================
+{
+id: 21,
+type: "text",
+difficulty: "medium",
+question: "Prefix 'brady-' dalam terminologi medis berarti...",
+options: [
+"Cepat",
+"Lambat",
+"Besar",
+"Kecil"
+],
+answer: 1,
+explanation: "Brady- berarti lambat. Contohnya bradycardia yaitu denyut jantung lebih lambat dari normal."
+},
+
+// =========================
+// SOAL 22 (IMAGE)
+// =========================
+{
+id: 22,
+type: "image",
+difficulty: "medium",
+image: "images/clavicle_01.png",
+imageVariant: "A",
+question: "Tulang yang ditunjuk pada gambar adalah...",
+options: [
+"Scapula",
+"Clavicula",
+"Sternum",
+"Humerus"
+],
+answer: 1,
+explanation: "Clavicula atau tulang selangka menghubungkan sternum dengan scapula."
+},
+
+// =========================
+// SOAL 23 (TEXT)
+// =========================
+{
+id: 23,
+type: "text",
+difficulty: "medium",
+question: "Word root 'nephr-' berhubungan dengan organ...",
+options: [
+"Hati",
+"Paru",
+"Ginjal",
+"Lambung"
+],
+answer: 2,
+explanation: "Nephr- berasal dari bahasa Yunani yang berarti ginjal, seperti pada nephrology dan nephritis."
+},
+
+// =========================
+// SOAL 24 (IMAGE)
+// =========================
+{
+id: 24,
+type: "image",
+difficulty: "medium",
+image: "images/sternum_01.png",
+imageVariant: "A",
+question: "Bagian sternum yang ditunjuk pada gambar adalah...",
+options: [
+"Manubrium",
+"Corpus sterni",
+"Processus xiphoideus",
+"Incisura jugularis"
+],
+answer: 0,
+explanation: "Manubrium merupakan bagian superior sternum yang berartikulasi dengan clavicula."
+},
+
+// =========================
+// SOAL 25 (TEXT)
+// =========================
+{
+id: 25,
+type: "text",
+difficulty: "hard",
+question: "Istilah 'hemiparesis' berarti...",
+options: [
+"Kelumpuhan total kedua tungkai",
+"Kelemahan pada satu sisi tubuh",
+"Nyeri pada setengah tubuh",
+"Kehilangan sensasi pada wajah"
+],
+answer: 1,
+explanation: "Hemi berarti setengah dan paresis berarti kelemahan parsial, sehingga hemiparesis adalah kelemahan satu sisi tubuh."
+},
+
+// =========================
+// SOAL 26 (IMAGE)
+// =========================
+{
+id: 26,
+type: "image",
+difficulty: "hard",
+image: "images/liver_01.png",
+imageVariant: "A",
+question: "Lobus hepar yang ditunjuk pada gambar adalah...",
+options: [
+"Lobus dexter",
+"Lobus sinister",
+"Lobus caudatus",
+"Lobus quadratus"
+],
+answer: 2,
+explanation: "Lobus caudatus terletak pada permukaan posterior hepar dan memiliki hubungan anatomi penting dengan vena cava inferior."
+},
+
+// =========================
+// SOAL 27 (TEXT)
+// =========================
+{
+id: 27,
+type: "text",
+difficulty: "hard",
+question: "Nervus yang bertanggung jawab terhadap sensasi sebagian besar wajah adalah...",
+options: [
+"N. facialis",
+"N. trigeminus",
+"N. vagus",
+"N. hypoglossus"
+],
+answer: 1,
+explanation: "Nervus trigeminus (CN V) merupakan saraf utama sensorik wajah."
+},
+
+// =========================
+// SOAL 28 (IMAGE)
+// =========================
+{
+id: 28,
+type: "image",
+difficulty: "hard",
+image: "images/brain_01.png",
+imageVariant: "A",
+question: "Bagian otak yang ditunjuk pada gambar adalah...",
+options: [
+"Cerebellum",
+"Pons",
+"Medulla oblongata",
+"Thalamus"
+],
+answer: 1,
+explanation: "Pons merupakan bagian batang otak yang menghubungkan medulla oblongata dengan mesencephalon."
+},
+
+// =========================
+// SOAL 29 (TEXT)
+// =========================
+{
+id: 29,
+type: "text",
+difficulty: "hard",
+question: "Suffix '-ectomy' menunjukkan tindakan...",
+options: [
+"Peradangan",
+"Pemeriksaan visual",
+"Pengangkatan melalui operasi",
+"Perbaikan jaringan"
+],
+answer: 2,
+explanation: "Ectomy berarti pengangkatan secara bedah, misalnya appendectomy atau tonsillectomy."
+},
+
+// =========================
+// SOAL 30 (IMAGE)
+// =========================
+{
+id: 30,
+type: "image",
+difficulty: "hard",
+image: "images/pelvis_01.png",
+imageVariant: "A",
+question: "Struktur yang ditunjuk pada pelvis adalah...",
+options: [
+"Ilium",
+"Ischium",
+"Pubis",
+"Acetabulum"
+],
+answer: 3,
+explanation: "Acetabulum adalah rongga tempat caput femoris berartikulasi membentuk sendi panggul."
+},
+  // =========================
+// SOAL 31 (TEXT)
+// =========================
+{
+id: 31,
+type: "text",
+difficulty: "medium",
+question: "Jika struktur A terletak lebih dekat ke garis tengah tubuh dibanding struktur B, maka struktur A bersifat...",
+options: [
+"Lateral",
+"Distal",
+"Medial",
+"Superfisial"
+],
+answer: 2,
+explanation: "Medial berarti lebih dekat ke garis tengah tubuh (midline)."
+},
+
+// =========================
+// SOAL 32 (IMAGE)
+// =========================
+{
+id: 32,
+type: "image",
+difficulty: "medium",
+image: "images/brain_lobe_01.png",
+imageVariant: "A",
+question: "Lobus serebri yang ditunjuk pada gambar adalah...",
+options: [
+"Lobus frontalis",
+"Lobus parietalis",
+"Lobus temporalis",
+"Lobus occipitalis"
+],
+answer: 0,
+explanation: "Lobus frontalis berperan dalam fungsi motorik, perencanaan, dan fungsi eksekutif."
+},
+
+// =========================
+// SOAL 33 (TEXT)
+// =========================
+{
+id: 33,
+type: "text",
+difficulty: "medium",
+question: "Pasien berbaring dengan wajah menghadap ke bawah. Posisi tersebut disebut...",
+options: [
+"Supine",
+"Prone",
+"Fowler",
+"Lithotomy"
+],
+answer: 1,
+explanation: "Prone adalah posisi tengkurap dengan wajah menghadap ke bawah."
+},
+
+// =========================
+// SOAL 34 (IMAGE)
+// =========================
+{
+id: 34,
+type: "image",
+difficulty: "medium",
+image: "images/body_plane_01.png",
+imageVariant: "A",
+question: "Bidang anatomi yang ditunjuk membagi tubuh menjadi bagian kanan dan kiri adalah...",
+options: [
+"Coronal plane",
+"Transverse plane",
+"Sagittal plane",
+"Oblique plane"
+],
+answer: 2,
+explanation: "Sagittal plane membagi tubuh menjadi bagian kanan dan kiri."
+},
+
+// =========================
+// SOAL 35 (TEXT)
+// =========================
+{
+id: 35,
+type: "text",
+difficulty: "hard",
+question: "Istilah 'pericarditis' dapat diuraikan menjadi...",
+options: [
+"Peri + card + itis",
+"Peri + nephr + itis",
+"Card + oma",
+"Peri + gastr + itis"
+],
+answer: 0,
+explanation: "Peri = sekitar, card = jantung, itis = peradangan."
+},
+
+// =========================
+// SOAL 36 (IMAGE)
+// =========================
+{
+id: 36,
+type: "image",
+difficulty: "hard",
+image: "images/abdominal_quadrant_01.png",
+imageVariant: "A",
+question: "Kuadran abdomen yang ditunjuk pada gambar adalah...",
+options: [
+"RUQ",
+"LUQ",
+"RLQ",
+"LLQ"
+],
+answer: 2,
+explanation: "RLQ (Right Lower Quadrant) merupakan lokasi anatomis apendiks pada sebagian besar individu."
+},
+
+// =========================
+// SOAL 37 (TEXT)
+// =========================
+{
+id: 37,
+type: "text",
+difficulty: "hard",
+question: "Jika suatu struktur berada di antara bahu dan siku, maka struktur tersebut bersifat...",
+options: [
+"Proksimal terhadap bahu",
+"Distal terhadap siku",
+"Distal terhadap bahu dan proksimal terhadap siku",
+"Medial terhadap siku"
+],
+answer: 2,
+explanation: "Posisi di antara bahu dan siku berarti distal terhadap bahu namun proksimal terhadap siku."
+},
+
+// =========================
+// SOAL 38 (IMAGE)
+// =========================
+{
+id: 38,
+type: "image",
+difficulty: "hard",
+image: "images/thoracic_cavity_01.png",
+imageVariant: "A",
+question: "Rongga tubuh yang ditunjuk pada gambar adalah...",
+options: [
+"Abdominal cavity",
+"Pelvic cavity",
+"Thoracic cavity",
+"Cranial cavity"
+],
+answer: 2,
+explanation: "Thoracic cavity berisi paru-paru, jantung, dan struktur mediastinum."
+},
+
+// =========================
+// SOAL 39 (TEXT)
+// =========================
+{
+id: 39,
+type: "text",
+difficulty: "hard",
+question: "Istilah 'hypoglycemia' menunjukkan kondisi...",
+options: [
+"Kadar gula darah tinggi",
+"Kadar gula darah rendah",
+"Kadar lemak darah tinggi",
+"Kadar oksigen darah rendah"
+],
+answer: 1,
+explanation: "Hypo berarti rendah dan glycemia berkaitan dengan kadar glukosa darah."
+},
+
+// =========================
+// SOAL 40 (IMAGE)
+// =========================
+{
+id: 40,
+type: "image",
+difficulty: "hard",
+image: "images/eye_01.png",
+imageVariant: "A",
+question: "Struktur bola mata yang ditunjuk pada gambar adalah...",
+options: [
+"Cornea",
+"Lens",
+"Retina",
+"Iris"
+],
+answer: 1,
+explanation: "Lens berfungsi memfokuskan cahaya ke retina."
+  },
+  
 
 ];
