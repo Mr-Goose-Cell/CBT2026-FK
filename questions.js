@@ -1134,6 +1134,195 @@ options: [
 answer: 0,
 explanation: "Circle of Willis adalah anastomosis arteri di dasar otak yang menjaga suplai darah serebral."
 },
+  // =========================
+// SOAL 61 (TEXT)
+// =========================
+{
+id: 61,
+type: "text",
+difficulty: "medium",
+question: "Word root 'gastr-' mengacu pada organ...",
+options: [
+"Usus",
+"Lambung",
+"Hati",
+"Pankreas"
+],
+answer: 1,
+explanation: "Gastr- berasal dari bahasa Yunani gaster yang berarti lambung. Contohnya gastritis dan gastrectomy."
+},
+
+// =========================
+// SOAL 62 (IMAGE)
+// =========================
+{
+id: 62,
+type: "image",
+difficulty: "medium",
+image: "images/stomach_01.png",
+imageVariant: "A",
+question: "Bagian lambung yang ditunjuk pada gambar adalah...",
+options: [
+"Cardia",
+"Fundus",
+"Pylorus",
+"Corpus"
+],
+answer: 1,
+explanation: "Fundus merupakan bagian superior lambung yang terletak di atas muara esofagus."
+},
+
+// =========================
+// SOAL 63 (TEXT)
+// =========================
+{
+id: 63,
+type: "text",
+difficulty: "medium",
+question: "Suffix '-logy' berarti...",
+options: [
+"Ilmu yang mempelajari",
+"Peradangan",
+"Pemotongan",
+"Penyakit"
+],
+answer: 0,
+explanation: "Suffix -logy menunjukkan bidang ilmu atau studi, misalnya cardiology dan neurology."
+},
+
+// =========================
+// SOAL 64 (IMAGE)
+// =========================
+{
+id: 64,
+type: "image",
+difficulty: "medium",
+image: "images/esophagus_01.png",
+imageVariant: "A",
+question: "Struktur yang ditunjuk pada gambar merupakan...",
+options: [
+"Trakea",
+"Esofagus",
+"Bronkus utama",
+"Laring"
+],
+answer: 1,
+explanation: "Esofagus adalah saluran muskular yang menghubungkan faring dengan lambung."
+},
+
+// =========================
+// SOAL 65 (TEXT)
+// =========================
+{
+id: 65,
+type: "text",
+difficulty: "hard",
+question: "Istilah 'neuropathy' paling tepat berarti...",
+options: [
+"Peradangan saraf",
+"Tumor saraf",
+"Gangguan atau penyakit saraf",
+"Operasi saraf"
+],
+answer: 2,
+explanation: "Neuro berarti saraf dan pathy berarti penyakit atau gangguan."
+},
+
+// =========================
+// SOAL 66 (IMAGE)
+// =========================
+{
+id: 66,
+type: "image",
+difficulty: "hard",
+image: "images/pancreas_01.png",
+imageVariant: "A",
+question: "Bagian pankreas yang ditunjuk pada gambar adalah...",
+options: [
+"Caput pancreatis",
+"Corpus pancreatis",
+"Cauda pancreatis",
+"Ductus pancreaticus"
+],
+answer: 2,
+explanation: "Cauda pancreatis merupakan bagian pankreas yang memanjang menuju limpa."
+},
+
+// =========================
+// SOAL 67 (TEXT)
+// =========================
+{
+id: 67,
+type: "text",
+difficulty: "hard",
+question: "Prefix 'peri-' memiliki arti...",
+options: [
+"Di dalam",
+"Di bawah",
+"Di sekitar",
+"Di antara"
+],
+answer: 2,
+explanation: "Peri- berarti mengelilingi atau berada di sekitar suatu struktur."
+},
+
+// =========================
+// SOAL 68 (IMAGE)
+// =========================
+{
+id: 68,
+type: "image",
+difficulty: "hard",
+image: "images/spleen_01.png",
+imageVariant: "A",
+question: "Organ yang ditunjuk pada gambar adalah...",
+options: [
+"Hepar",
+"Pankreas",
+"Limpa",
+"Ginjal kiri"
+],
+answer: 2,
+explanation: "Limpa (spleen) merupakan organ limfoid terbesar dalam tubuh."
+},
+
+// =========================
+// SOAL 69 (TEXT)
+// =========================
+{
+id: 69,
+type: "text",
+difficulty: "very_hard",
+question: "Istilah 'polyuria' menunjukkan kondisi...",
+options: [
+"Nyeri saat berkemih",
+"Sering berkemih dengan volume meningkat",
+"Tidak dapat berkemih",
+"Darah dalam urin"
+],
+answer: 1,
+explanation: "Poly berarti banyak dan uria berkaitan dengan urin. Polyuria adalah produksi urin berlebihan."
+},
+
+// =========================
+// SOAL 70 (IMAGE)
+// =========================
+{
+id: 70,
+type: "image",
+difficulty: "very_hard",
+image: "images/nephron_01.png",
+imageVariant: "A",
+question: "Struktur nefron yang ditunjuk pada gambar adalah...",
+options: [
+"Glomerulus",
+"Loop of Henle",
+"Tubulus distal",
+"Ductus kolektivus"
+],
+answer: 0,
+explanation: "Glomerulus merupakan anyaman kapiler tempat terjadinya filtrasi darah pertama kali."
+},
   
 
 ];
