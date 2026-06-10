@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CBT FK UHO 2026</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="app-container">
+
+    <!-- HEADER -->
+    <header class="header">
+      <h1>CBT FK UHO 2026</h1>
+
+      <!-- PROGRESS BAR -->
+      <div class="progress-container">
+        <div id="progressBar"></div>
+      </div>
+
+      <p id="progressText">Soal 1 / 100</p>
+    </header>
+
+    <!-- QUIZ AREA -->
+    <main class="quiz-box">
+
+      <!-- 
+        IMAGE SECTION (PENTING)
+        - Mendukung 50 soal bergambar
+        - 1 soal bisa:
+          * 1 gambar
+          * atau gambar yang sama tapi pointer/garis berbeda (diatur dari JS)
+      -->
+      <div id="imageContainer" class="image-container hidden">
+        <img id="questionImage" src="" alt="Gambar Soal"/>
+
+        <!-- OPTIONAL: kalau nanti kamu mau overlay label/marker -->
+        <canvas id="imageOverlay"></canvas>
+      </div>
+
+      <!-- SOAL TEKS -->
+      <div id="questionText" class="question">
+        Loading soal...
+      </div>
+
+      <!-- OPSI JAWABAN -->
+      <div id="optionsContainer" class="options"></div>
+
+      <!-- HASIL + PENJELASAN -->
+      <div id="resultBox" class="result hidden">
+        <h3 id="resultStatus"></h3>
+        <p id="explanationText"></p>
+      </div>
+
+      <!-- NEXT BUTTON -->
+      <button id="nextButton" class="btn hidden">
+        Soal Berikutnya
+      </button>
+
+    </main>
+
+  </div>
+
+  <!-- SCRIPT -->
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
