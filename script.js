@@ -23,6 +23,15 @@ const imageContainer = document.getElementById("imageContainer");
 const questionImage = document.getElementById("questionImage");
 
 // -------------------------
+// TIMER
+// -------------------------
+
+const timerElement =
+document.getElementById("timer");
+
+let timeLeft = 6000;
+
+// -------------------------
 // STATE
 // -------------------------
 
@@ -52,6 +61,7 @@ function shuffleArray(array) {
 // START
 // -------------------------
 
+startTimer();
 showQuestion();
 
 // -------------------------
@@ -322,3 +332,36 @@ function showFinalScore() {
   </div>
   `;
   }
+
+// -------------------
+// TIMER
+// -------------------
+
+function startTimer(){
+
+    const timer =
+    setInterval(() => {
+
+        let minutes =
+        Math.floor(timeLeft / 60);
+
+        let seconds =
+        timeLeft % 60;
+
+        timerElement.innerText =
+        `${minutes}:${seconds
+          .toString()
+          .padStart(2,"0")}`;
+
+        timeLeft--;
+
+        if(timeLeft < 0){
+
+            clearInterval(timer);
+
+            showFinalScore();
+        }
+
+    },1000);
+
+}
