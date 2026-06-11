@@ -1701,5 +1701,194 @@ options: [
 answer: 0,
 explanation: "Corpus callosum merupakan kumpulan serabut komisural terbesar pada otak yang menghubungkan hemisfer serebri kanan dan kiri sehingga memungkinkan pertukaran informasi antar kedua hemisfer."
 },
+  // =========================
+// SOAL 91 (TEXT)
+// =========================
+{
+id: 91,
+type: "text",
+difficulty: "hard",
+question: "Istilah 'diplopia' berarti...",
+options: [
+"Penglihatan ganda",
+"Kehilangan pendengaran",
+"Kesulitan berbicara",
+"Kesulitan menelan"
+],
+answer: 0,
+explanation: "Diplopia berasal dari diplo- (ganda) dan -opia (penglihatan), sehingga berarti melihat satu objek menjadi dua bayangan."
+},
+
+// =========================
+// SOAL 92 (IMAGE)
+// =========================
+{
+id: 92,
+type: "image",
+difficulty: "hard",
+image: "images/ethmoid_01.png",
+imageVariant: "A",
+question: "Tulang kranium yang ditunjuk pada gambar adalah...",
+options: [
+"Frontal bone",
+"Ethmoid bone",
+"Sphenoid bone",
+"Temporal bone"
+],
+answer: 1,
+explanation: "Ethmoid bone terletak di antara kedua orbita dan berkontribusi terhadap pembentukan rongga hidung serta dinding medial orbita."
+},
+
+// =========================
+// SOAL 93 (TEXT)
+// =========================
+{
+id: 93,
+type: "text",
+difficulty: "hard",
+question: "Suffix '-plegia' menunjukkan kondisi...",
+options: [
+"Kelemahan otot",
+"Kelumpuhan",
+"Peradangan",
+"Nyeri"
+],
+answer: 1,
+explanation: "Plegia berarti kehilangan fungsi motorik atau kelumpuhan total, berbeda dengan paresis yang berarti kelemahan parsial."
+},
+
+// =========================
+// SOAL 94 (IMAGE)
+// =========================
+{
+id: 94,
+type: "image",
+difficulty: "very_hard",
+image: "images/optic_chiasm_01.png",
+imageVariant: "A",
+question: "Struktur yang ditunjuk pada dasar otak adalah...",
+options: [
+"Optic nerve",
+"Optic chiasm",
+"Optic tract",
+"Oculomotor nerve"
+],
+answer: 1,
+explanation: "Optic chiasm merupakan tempat sebagian serabut nervus opticus menyilang sebelum melanjutkan perjalanan sebagai tractus opticus."
+},
+
+// =========================
+// SOAL 95 (TEXT)
+// =========================
+{
+id: 95,
+type: "text",
+difficulty: "hard",
+question: "Istilah 'melena' menunjukkan...",
+options: [
+"Muntah darah segar",
+"Feses berwarna hitam akibat perdarahan saluran cerna",
+"Darah dalam urin",
+"Perdarahan hidung"
+],
+answer: 1,
+explanation: "Melena adalah feses hitam seperti ter akibat perdarahan saluran cerna bagian atas yang telah mengalami pencernaan."
+},
+
+// =========================
+// SOAL 96 (IMAGE)
+// =========================
+{
+id: 96,
+type: "image",
+difficulty: "very_hard",
+image: "images/scaphoid_01.png",
+imageVariant: "A",
+question: "Tulang karpal yang ditunjuk pada gambar adalah...",
+options: [
+"Lunate",
+"Triquetrum",
+"Scaphoid",
+"Pisiform"
+],
+answer: 2,
+explanation: "Scaphoid merupakan tulang karpal yang paling sering mengalami fraktur akibat jatuh dengan tangan menumpu."
+},
+
+// =========================
+// SOAL 97 (TEXT)
+// =========================
+{
+id: 97,
+type: "text",
+difficulty: "very_hard",
+question: "Prefix 'retro-' dalam terminologi anatomi berarti...",
+options: [
+"Di atas",
+"Di depan",
+"Di belakang",
+"Di antara"
+],
+answer: 2,
+explanation: "Retro- berarti berada di belakang suatu struktur, misalnya ruang retroperitoneal yang terletak di belakang peritoneum."
+},
+
+// =========================
+// SOAL 98 (IMAGE)
+// =========================
+{
+id: 98,
+type: "image",
+difficulty: "very_hard",
+image: "images/uvula_01.png",
+imageVariant: "A",
+question: "Struktur yang ditunjuk pada rongga mulut adalah...",
+options: [
+"Palatum durum",
+"Palatum molle",
+"Uvula",
+"Tonsilla palatina"
+],
+answer: 2,
+explanation: "Uvula merupakan tonjolan berbentuk kerucut yang menggantung dari bagian posterior palatum molle."
+},
+
+// =========================
+// SOAL 99 (TEXT)
+// =========================
+{
+id: 99,
+type: "text",
+difficulty: "very_hard",
+question: "Istilah 'xerostomia' berarti...",
+options: [
+"Mulut kering",
+"Lidah membesar",
+"Peradangan gusi",
+"Kesulitan mengunyah"
+],
+answer: 0,
+explanation: "Xero- berarti kering dan -stomia berkaitan dengan rongga mulut. Xerostomia adalah kondisi mulut kering akibat berkurangnya produksi saliva."
+},
+
+// =========================
+// SOAL 100 (IMAGE)
+// =========================
+{
+id: 100,
+type: "image",
+difficulty: "very_hard",
+image: "images/foramen_ovale_01.png",
+imageVariant: "A",
+question: "Foramen yang ditunjuk pada dasar kranium adalah...",
+options: [
+"Foramen rotundum",
+"Foramen spinosum",
+"Foramen ovale",
+"Jugular foramen"
+],
+answer: 2,
+explanation: "Foramen ovale pada os sphenoidale dilalui oleh nervus mandibularis (V3), cabang terbesar dari nervus trigeminus."
+},
 
 ];
