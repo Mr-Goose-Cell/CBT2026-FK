@@ -1,0 +1,438 @@
+/* ==================================
+   RESET
+================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:
+    "Segoe UI",
+    Tahoma,
+    Geneva,
+    Verdana,
+    sans-serif;
+
+    background:#f4f7fb;
+
+    color:#222;
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+
+    padding:20px;
+}
+
+
+/* ==================================
+   MAIN CONTAINER
+================================== */
+
+.app-container{
+
+    width:100%;
+    max-width:900px;
+
+}
+
+
+/* ==================================
+   HEADER
+================================== */
+
+.header{
+
+    background:#ffffff;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 5px 20px rgba(0,0,0,.08);
+
+    margin-bottom:20px;
+
+}
+
+.header h1{
+
+    text-align:center;
+
+    color:#1e40af;
+
+    margin-bottom:15px;
+
+    font-size:28px;
+
+}
+
+
+/* ==================================
+   PROGRESS BAR
+================================== */
+
+.progress-container{
+
+    width:100%;
+
+    height:14px;
+
+    background:#e5e7eb;
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+}
+
+#progressBar{
+
+    width:0%;
+
+    height:100%;
+
+    background:
+    linear-gradient(
+        90deg,
+        #2563eb,
+        #3b82f6
+    );
+
+    transition:all .4s ease;
+
+}
+
+#progressText{
+
+    text-align:center;
+
+    margin-top:10px;
+
+    font-weight:600;
+
+    color:#374151;
+}
+
+
+/* ==================================
+   QUIZ BOX
+================================== */
+
+.quiz-box{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    box-shadow:
+    0 5px 20px rgba(0,0,0,.08);
+
+}
+
+
+/* ==================================
+   QUESTION
+================================== */
+
+.question{
+
+    font-size:22px;
+
+    line-height:1.6;
+
+    margin-bottom:25px;
+
+    font-weight:600;
+
+}
+
+
+/* ==================================
+   IMAGE
+================================== */
+
+.image-container{
+
+    width:100%;
+
+    margin-bottom:20px;
+
+    text-align:center;
+
+}
+
+.image-container img{
+
+    width:100%;
+
+    max-width:700px;
+
+    height:auto;
+
+    border-radius:12px;
+
+    border:1px solid #d1d5db;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.08);
+
+}
+
+
+/* ==================================
+   OPTIONS
+================================== */
+
+.options{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+
+/* ==================================
+   OPTION BUTTON
+================================== */
+
+.option-btn{
+
+    width:100%;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#f3f4f6;
+
+    padding:15px;
+
+    text-align:left;
+
+    cursor:pointer;
+
+    font-size:17px;
+
+    transition:.25s;
+
+    font-weight:500;
+
+}
+
+.option-btn:hover{
+
+    background:#dbeafe;
+
+    transform:translateY(-2px);
+
+}
+
+.option-btn:disabled{
+
+    cursor:not-allowed;
+
+}
+
+
+/* ==================================
+   RESULT BOX
+================================== */
+
+.result{
+
+    margin-top:25px;
+
+    padding:18px;
+
+    border-radius:12px;
+
+    background:#f8fafc;
+
+    border-left:5px solid #2563eb;
+
+}
+
+#resultStatus{
+
+    margin-bottom:10px;
+
+    font-size:20px;
+
+}
+
+#explanationText{
+
+    line-height:1.7;
+
+    color:#374151;
+
+}
+
+
+/* ==================================
+   NEXT BUTTON
+================================== */
+
+.btn{
+
+    width:100%;
+
+    margin-top:20px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:15px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+    font-weight:600;
+
+}
+
+.btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+
+/* ==================================
+   FINAL SCORE
+================================== */
+
+.final-score{
+
+    text-align:center;
+
+}
+
+.final-score h2{
+
+    color:#16a34a;
+
+    margin-bottom:20px;
+
+}
+
+.final-score p{
+
+    margin:10px 0;
+
+    font-size:20px;
+
+}
+
+
+/* ==================================
+   HIDDEN
+================================== */
+
+.hidden{
+
+    display:none;
+
+}
+
+
+/* ==================================
+   MOBILE
+================================== */
+
+@media (max-width:768px){
+
+    body{
+
+        padding:10px;
+
+    }
+
+    .header{
+
+        padding:15px;
+
+    }
+
+    .quiz-box{
+
+        padding:18px;
+
+    }
+
+    .header h1{
+
+        font-size:22px;
+
+    }
+
+    .question{
+
+        font-size:19px;
+
+    }
+
+    .option-btn{
+
+        font-size:16px;
+
+        padding:14px;
+
+    }
+
+    .btn{
+
+        font-size:16px;
+
+    }
+
+}
+
+
+/* ==================================
+   EXTRA SMALL DEVICE
+================================== */
+
+@media (max-width:480px){
+
+    .question{
+
+        font-size:18px;
+
+    }
+
+    .option-btn{
+
+        font-size:15px;
+
+        padding:12px;
+
+    }
+
+    .final-score p{
+
+        font-size:17px;
+
+    }
+
+}
