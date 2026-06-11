@@ -1512,6 +1512,195 @@ options: [
 answer: 2,
 explanation: "Ganglion spinale berisi badan sel neuron sensorik dan terletak pada radix dorsalis."
 },
+  // =========================
+// SOAL 81 (TEXT)
+// =========================
+{
+id: 81,
+type: "text",
+difficulty: "medium",
+question: "Word root 'myel-' dalam terminologi kedokteran paling sering mengacu pada...",
+options: [
+"Otot",
+"Sumsum tulang atau medula spinalis",
+"Kulit",
+"Sendi"
+],
+answer: 1,
+explanation: "Myel- dapat mengacu pada sumsum tulang maupun medula spinalis, tergantung konteks istilah medis yang digunakan."
+},
+
+// =========================
+// SOAL 82 (IMAGE)
+// =========================
+{
+id: 82,
+type: "image",
+difficulty: "medium",
+image: "images/radius_02.png",
+imageVariant: "A",
+question: "Struktur yang ditunjuk pada tulang radius adalah...",
+options: [
+"Styloid process",
+"Radial tuberosity",
+"Head of radius",
+"Ulnar notch"
+],
+answer: 1,
+explanation: "Radial tuberosity merupakan tempat perlekatan tendon m. biceps brachii."
+},
+
+// =========================
+// SOAL 83 (TEXT)
+// =========================
+{
+id: 83,
+type: "text",
+difficulty: "hard",
+question: "Prefix 'inter-' memiliki arti...",
+options: [
+"Di bawah",
+"Di dalam",
+"Di antara",
+"Di luar"
+],
+answer: 2,
+explanation: "Inter- berarti berada di antara dua struktur atau lebih, misalnya intercostal (di antara tulang iga)."
+},
+
+// =========================
+// SOAL 84 (IMAGE)
+// =========================
+{
+id: 84,
+type: "image",
+difficulty: "hard",
+image: "images/scapula_02.png",
+imageVariant: "A",
+question: "Bagian scapula yang ditunjuk pada gambar adalah...",
+options: [
+"Supraspinous fossa",
+"Infraspinous fossa",
+"Acromion",
+"Coracoid process"
+],
+answer: 0,
+explanation: "Supraspinous fossa merupakan cekungan di atas spina scapula yang menjadi tempat m. supraspinatus."
+},
+
+// =========================
+// SOAL 85 (TEXT)
+// =========================
+{
+id: 85,
+type: "text",
+difficulty: "hard",
+question: "Istilah 'dysphagia' menunjukkan kondisi...",
+options: [
+"Kesulitan menelan",
+"Nyeri menelan",
+"Tidak mampu berbicara",
+"Kesulitan bernapas"
+],
+answer: 0,
+explanation: "Dys- berarti gangguan dan -phagia berkaitan dengan proses menelan. Dysphagia berarti kesulitan menelan."
+},
+
+// =========================
+// SOAL 86 (IMAGE)
+// =========================
+{
+id: 86,
+type: "image",
+difficulty: "hard",
+image: "images/foot_bone_01.png",
+imageVariant: "A",
+question: "Tulang yang ditunjuk pada gambar kaki adalah...",
+options: [
+"Talus",
+"Calcaneus",
+"Navicular",
+"Cuboid"
+],
+answer: 0,
+explanation: "Talus berartikulasi dengan tibia dan fibula membentuk sendi pergelangan kaki."
+},
+
+// =========================
+// SOAL 87 (TEXT)
+// =========================
+{
+id: 87,
+type: "text",
+difficulty: "very_hard",
+question: "Istilah anatomi 'ipsilateral' berarti...",
+options: [
+"Berada pada sisi tubuh yang berlawanan",
+"Berada pada sisi tubuh yang sama",
+"Berada di garis tengah tubuh",
+"Berada di dalam rongga tubuh"
+],
+answer: 1,
+explanation: "Ipsilateral menunjukkan dua struktur berada pada sisi tubuh yang sama, sedangkan contralateral berarti berlawanan sisi."
+},
+
+// =========================
+// SOAL 88 (IMAGE)
+// =========================
+{
+id: 88,
+type: "image",
+difficulty: "very_hard",
+image: "images/circle_willis_02.png",
+imageVariant: "A",
+question: "Arteri yang ditunjuk pada gambar merupakan bagian dari Circle of Willis, yaitu...",
+options: [
+"Anterior cerebral artery",
+"Middle cerebral artery",
+"Posterior cerebral artery",
+"Basilar artery"
+],
+answer: 0,
+explanation: "Anterior cerebral artery merupakan salah satu komponen utama Circle of Willis yang menyuplai bagian medial hemisfer serebri."
+},
+
+// =========================
+// SOAL 89 (TEXT)
+// =========================
+{
+id: 89,
+type: "text",
+difficulty: "very_hard",
+question: "Suffix '-rrhage' atau '-rrhagia' menunjukkan...",
+options: [
+"Pembentukan jaringan",
+"Perdarahan berlebihan",
+"Peradangan",
+"Pemecahan jaringan"
+],
+answer: 1,
+explanation: "Suffix -rrhage/-rrhagia menunjukkan perdarahan atau keluarnya darah dalam jumlah besar, misalnya hemorrhage."
+},
+
+// =========================
+// SOAL 90 (IMAGE)
+// =========================
+{
+id: 90,
+type: "image",
+difficulty: "very_hard",
+image: "images/histology_01.png",
+imageVariant: "A",
+question: "Jaringan epitel yang ditunjuk pada preparat histologi adalah...",
+options: [
+"Simple squamous epithelium",
+"Simple cuboidal epithelium",
+"Simple columnar epithelium",
+"Stratified squamous epithelium"
+],
+answer: 1,
+explanation: "Simple cuboidal epithelium tersusun atas satu lapis sel berbentuk kubus dan banyak ditemukan pada tubulus ginjal."
+},
   
 
 ];
