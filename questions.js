@@ -1689,18 +1689,17 @@ explanation: "Suffix -rrhage/-rrhagia menunjukkan perdarahan atau keluarnya dara
 id: 90,
 type: "image",
 difficulty: "very_hard",
-image: "images/histology_01.png",
+image: "images/corpus_callosum_01.png",
 imageVariant: "A",
-question: "Jaringan epitel yang ditunjuk pada preparat histologi adalah...",
+question: "Struktur yang ditunjuk pada potongan sagital otak berikut adalah...",
 options: [
-"Simple squamous epithelium",
-"Simple cuboidal epithelium",
-"Simple columnar epithelium",
-"Stratified squamous epithelium"
+"Corpus callosum",
+"Thalamus",
+"Pons",
+"Cerebellum"
 ],
-answer: 1,
-explanation: "Simple cuboidal epithelium tersusun atas satu lapis sel berbentuk kubus dan banyak ditemukan pada tubulus ginjal."
+answer: 0,
+explanation: "Corpus callosum merupakan kumpulan serabut komisural terbesar pada otak yang menghubungkan hemisfer serebri kanan dan kiri sehingga memungkinkan pertukaran informasi antar kedua hemisfer."
 },
-  
 
 ];
