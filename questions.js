@@ -1323,6 +1323,195 @@ options: [
 answer: 0,
 explanation: "Glomerulus merupakan anyaman kapiler tempat terjadinya filtrasi darah pertama kali."
 },
+  // =========================
+// SOAL 71 (TEXT)
+// =========================
+{
+id: 71,
+type: "text",
+difficulty: "medium",
+question: "Kelenjar endokrin utama yang menghasilkan hormon insulin adalah...",
+options: [
+"Tiroid",
+"Hipofisis",
+"Pankreas",
+"Adrenal"
+],
+answer: 2,
+explanation: "Sel beta pulau Langerhans pankreas menghasilkan hormon insulin yang berperan mengatur kadar glukosa darah."
+},
+
+// =========================
+// SOAL 72 (IMAGE)
+// =========================
+{
+id: 72,
+type: "image",
+difficulty: "medium",
+image: "images/thyroid_01.png",
+imageVariant: "A",
+question: "Struktur yang ditunjuk pada gambar adalah...",
+options: [
+"Kelenjar parotis",
+"Kelenjar tiroid",
+"Kelenjar timus",
+"Kelenjar hipofisis"
+],
+answer: 1,
+explanation: "Kelenjar tiroid terletak di bagian anterior leher dan mengelilingi trakea."
+},
+
+// =========================
+// SOAL 73 (TEXT)
+// =========================
+{
+id: 73,
+type: "text",
+difficulty: "medium",
+question: "Istilah 'endocrine' berarti sekresi hormon...",
+options: [
+"Melalui saluran khusus",
+"Ke permukaan epitel",
+"Langsung ke aliran darah",
+"Ke rongga tubuh"
+],
+answer: 2,
+explanation: "Kelenjar endokrin tidak memiliki duktus dan mensekresikan hormon langsung ke sirkulasi darah."
+},
+
+// =========================
+// SOAL 74 (IMAGE)
+// =========================
+{
+id: 74,
+type: "image",
+difficulty: "medium",
+image: "images/adrenal_01.png",
+imageVariant: "A",
+question: "Organ yang ditunjuk pada gambar adalah...",
+options: [
+"Ginjal",
+"Limpa",
+"Kelenjar adrenal",
+"Pankreas"
+],
+answer: 2,
+explanation: "Kelenjar adrenal terletak di bagian superior ginjal dan menghasilkan berbagai hormon penting."
+},
+
+// =========================
+// SOAL 75 (TEXT)
+// =========================
+{
+id: 75,
+type: "text",
+difficulty: "hard",
+question: "Jaringan epitel selapis pipih paling sesuai untuk fungsi...",
+options: [
+"Proteksi mekanik berat",
+"Difusi cepat",
+"Kontraksi",
+"Penyimpanan energi"
+],
+answer: 0,
+explanation: "Epitel selapis pipih memungkinkan difusi dan filtrasi berlangsung secara efisien, misalnya pada alveolus paru."
+},
+
+// =========================
+// SOAL 76 (IMAGE)
+// =========================
+{
+id: 76,
+type: "image",
+difficulty: "hard",
+image: "images/neuron_01.png",
+imageVariant: "A",
+question: "Bagian neuron yang ditunjuk pada gambar adalah...",
+options: [
+"Dendrit",
+"Akson",
+"Badan sel",
+"Nodus Ranvier"
+],
+answer: 1,
+explanation: "Akson menghantarkan impuls saraf menjauhi badan sel menuju neuron atau efektor lain."
+},
+
+// =========================
+// SOAL 77 (TEXT)
+// =========================
+{
+id: 77,
+type: "text",
+difficulty: "hard",
+question: "Istilah 'anuria' menunjukkan kondisi...",
+options: [
+"Peningkatan produksi urin",
+"Tidak adanya produksi urin atau sangat sedikit",
+"Nyeri saat berkemih",
+"Adanya glukosa dalam urin"
+],
+answer: 1,
+explanation: "Anuria adalah kondisi produksi urin sangat sedikit atau hampir tidak ada."
+},
+
+// =========================
+// SOAL 78 (IMAGE)
+// =========================
+{
+id: 78,
+type: "image",
+difficulty: "hard",
+image: "images/pituitary_01.png",
+imageVariant: "A",
+question: "Struktur yang ditunjuk pada dasar otak adalah...",
+options: [
+"Hipotalamus",
+"Hipofisis",
+"Pineal",
+"Thalamus"
+],
+answer: 1,
+explanation: "Hipofisis dikenal sebagai master gland karena mengatur banyak kelenjar endokrin lainnya."
+},
+
+// =========================
+// SOAL 79 (TEXT)
+// =========================
+{
+id: 79,
+type: "text",
+difficulty: "very_hard",
+question: "Lesi pada lobus occipitalis paling mungkin menyebabkan gangguan...",
+options: [
+"Pendengaran",
+"Penglihatan",
+"Keseimbangan",
+"Motorik halus"
+],
+answer: 1,
+explanation: "Korteks visual primer berada pada lobus occipitalis sehingga lesi dapat menyebabkan gangguan penglihatan."
+},
+
+// =========================
+// SOAL 80 (IMAGE)
+// =========================
+{
+id: 80,
+type: "image",
+difficulty: "very_hard",
+image: "images/spinal_nerve_01.png",
+imageVariant: "A",
+question: "Struktur yang ditunjuk pada gambar merupakan...",
+options: [
+"Radix dorsalis",
+"Radix ventralis",
+"Ganglion spinale",
+"Nervus spinalis"
+],
+answer: 2,
+explanation: "Ganglion spinale berisi badan sel neuron sensorik dan terletak pada radix dorsalis."
+},
   
 
 ];
